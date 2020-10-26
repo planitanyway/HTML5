@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<title>Forms, Fonts and iFrames</title>
+</head>
+<style>
+	
+	.grid-container {
+		display: grid;
+		grid-gap: 10px;
+		background-color: #7E99C3;
+		padding: 10px;
+	}
+	
+	.grid-container > div {
+		background-color: #849F69;
+		text-align: center;
+		padding: 20px 0;
+		font-size: 20px;
+	}
+	
+	.item1 {
+		grid-column: 1 / span 5;
+		grid-row: 1;
+	}
+	.item2 {
+		grid-column 2 / span 3;
+		grid-row: 2 / span 2;
+	}
+	.item3 {
+		grid-column: 3 / span 3;
+		grid-row: 2 / span 2;
+	}
+	.item4 {
+		grid-column 3 / span 3;
+		grid-row: 2 / span 2;
+	}
+	.item5 {
+		grid-column 5 / span 5
+		grid-row: 5
+	}
+	
+</style>
+
+<body>
+	
+	<div class="grid-container">
+	
+		<div class="item1">
+		<h1>Lorem</h1></div>
+		 
+		<div class="item2">
+			<div>Lorem</div>
+			<div>Lorem</div>
+			<div>Lorem</div>
+			</div>
+		
+		<div class="item3">
+		<h2>Lorem ipsum dolor sit amet.</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque error ducimus aut ad corporis similique dicta necessitatibus quisquam, quia maxime, quis illum provident autem at blanditiis deleniti quo suscipit velit molestias maiores architecto et corrupti. Provident, quos repellendus itaque laudantium.</p></div>
+		
+		<div class="item4">
+		<h1>Lorem</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam perferendis facere nulla ipsa, voluptatum rem necessitatibus quia reprehenderit ab incidunt consequuntur ratione quisquam cupiditate vero mollitia alias error veritatis in expedita libero! Soluta fugiat voluptate omnis, ad, itaque ipsam reprehenderit.</p></div>
+		
+		<div class="item5"></div>
+	
+	</div>
+</body>
+</html>
