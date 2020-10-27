@@ -1,12 +1,15 @@
 <!doctype html>
 <html>
 <head>
+<link href="../Pacificogooglefont.zip.css" rel="stylesheet" type="text/css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, inital-scale=1.0">
 <title>Forms, Fonts and iFrames</title>
 </head>
 <style>
-	
+	body {
+		font-family: "Pacifico";
+	}
 	.grid-container {
 		display: grid;
 		grid-gap: 10px;
@@ -29,19 +32,17 @@
 		grid-row: 1;
 	}
 	.item2 {
-		padding-top: 20px;
 		grid-column 2 / span 3;
 		grid-row: 2 / span 2;
-		text-align: left;
 	}
 	.item3 {
 		grid-column: 4 / span 3;
-		grid-row: 2 / span 3;
+		grid-row: 2 / span 2;
 	}
 	.item5 {
 
 		grid-column-start: 1 / span 5;
-		grid-row: 4 / span 5;
+		grid-row: 3 / span 1;
 	}
 	
 </style>
@@ -51,9 +52,13 @@
 	<div class="grid-container">
 	
 		<div class="item1">
-		<h1 style="font-size: 50px;">Cookies Cookies Cookies</h1></div>
+		<h1>Cookies Cookies Cookies</h1><br>
+			<span style="font-size:50px;">&#127850;&#127850;&#127850;</span>
+		</div>
 		 
 		<div class="item2">
+			
+			<h3>Pick your fave!</h3>
 			<div>Snickerdoodles</div>
 			<div>Chocolate Chip Cookies</div>
 			<div>Oatmeal Raisin Cookies</div>
@@ -82,30 +87,46 @@
 			<div>Macarons</div>
 			<div>Black and White Cookies</div>
 			<div>White Chocolate Macadamia Nut Cookies</div>
+			<div>Benne Wafer</div>
+			<div>Fried Cookies</div>
+			<div>Oreo Cookies</div>
+			<div>Fig Rolls</div>
+			<div>Hamantash</div>
+			<div>Kue Gapit</div>
+			<div>Malted Milk Biscuit Cookies</div>
+			<div>Stroopwafel</div>
+			<div>Ube Crinkle Cookies</div>
+			<div>Vanillekipferl</div>
+						
 			</div>
 		
 		<div class="item3">
-		<img src="images/monika-grabkowska-bwF3hwmnGWQ-unsplash.jpg" alt="cookies on white ceramic footing tray"; width=640 height=955></div>
+		<img src="images/monika-grabkowska-bwF3hwmnGWQ-unsplash.jpg" width="640" height="955" alt="cookies on white ceramic footing tray"></div>
 		
 		<div class="item4">
 		<h2>Texture much?</h2>
 		
 		<form action="/action_page.php">
 			  <input type="checkbox" id="cookie1" name="cookie1" value="Soft">
-			<label for="cookie1" I like soft cookies!></label><br>
+			<label for="cookie1"> I like soft cookies!</label><br>
 			  <input type="checkbox" id="cookie2" name="cookie2" value="Hard">
-			<label for="cookie2" I like hard cookies!></label><br>
+			<label for="cookie2"> I like hard cookies!</label><br>
 		      <input type="checkbox" id="cookie3" name="cookie3" value="Crunchy">
-			<label for="cookie3" I like all cookies!></label><br><br>
+			<label for="cookie3"> I like all cookies!</label><br><br>
 			  <input type="submit" value="Submit">
 		</form>
 	</div>
 		
 		<div class="item5">
 		<h3>Who doesn't like cookies?</h3>
-			<img src="images/allrecipeslogo.jpg" alt="allrecipes logo"; "width=320 height=200;"><br>
+			<img src="images/allrecipeslogo.jpg" width="224" height="128" alt="allrecipes logo"><br>
 			<a href="https://www.allrecipes.com/gallery/most-popular-types-of-cookies/"> To learn more about the most popular types of cookies and recipes!</a></div>
 	
+		<div class="item6">
+			
+<iframe width="1038" height="584" src="https://www.youtube.com/embed/7_0x34gaIZ8"></iframe>
+
+		</div>
 	</div>
 </body>
 </html>
